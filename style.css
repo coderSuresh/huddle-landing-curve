@@ -230,13 +230,13 @@ footer {
     height: 158px;
 } */
 
-.top-curve, .bottom-curve {
+.top-curve {
     height: auto;
     width: 100%;
     display: block;
 }
 
-.top-curve-mobile, .bottom-curve-mobile {
+.top-curve-mobile{
     display: none;
 }
 
@@ -246,10 +246,6 @@ footer {
 
 .b {
     margin-top: -5px;
-}
-
-.bottom-curve {
-    margin-bottom: -4px;
 }
 
 .foot-container {
