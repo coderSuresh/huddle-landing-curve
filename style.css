@@ -149,6 +149,7 @@ nav {
 
 .left-text {
     width: 40%;
+    padding-bottom: 40px;
 }
 
 .grow-title, .flowing-title, .users-text {
@@ -229,13 +230,26 @@ footer {
     height: 158px;
 } */
 
-.top-curve {
+.top-curve, .bottom-curve {
+    height: auto;
     width: 100%;
     display: block;
 }
 
-.top-curve-mobile {
+.top-curve-mobile, .bottom-curve-mobile {
     display: none;
+}
+
+.m {
+    margin-bottom: -5px;
+}
+
+.b {
+    margin-top: -5px;
+}
+
+.bottom-curve {
+    margin-bottom: -4px;
 }
 
 .foot-container {
@@ -243,7 +257,7 @@ footer {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
-    padding: 0 6% 3% 6%;
+    padding: 40px 6% 3% 6%;
 
 }
 
